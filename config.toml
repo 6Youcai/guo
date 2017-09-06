@@ -1,0 +1,52 @@
+## Basic Configuration
+baseurl = "" 
+languageCode = "en-US"
+author = "youcai"
+title = "明鑫"
+theme = "hugo-goa"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+
+## Site Settings
+[params]
+	author = "Mingxin"
+	intro = "what's on your face? oh, it's beaufy."
+	description = "这里是明鑫的个人主页"
+	authorimage = "headshot.jpg"
+	dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+	# description = "Simple minimalist theme"
+	# keywords = "minimalist,blog,goa,hugo,developer"
+
+## Social Accounts
+[params.social]
+	github = "<username>"
+	instagram = "<username>"
+	linkedin = "<username>"
+	twitter = "<username>"
+	facebook = "<username>"
+	google = "<username>"
+	stackoverflow = "<username>"
+	email = "you@example.com"
+
+## Extras
+[params.extra]
+	copyright = "© 2017. Mingxin" 
+	# poweredby = true
+	# hightlightjs = true
+
+## Main Menu
+[[menu.main]]
+    name = "blog"
+    weight = 100
+    identifier = "blog"
+    url = "/blog/"
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 200
+    url = "/about/"
