@@ -1,10 +1,7 @@
-+++ 
-draft = false 
-comments = false 
-slug = "" 
-tags = []
++++
+title = ""
+date = "2017-05-08"
+slug = ""
 categories = []
-
-showpagemeta = true
-showcomments = true
+tags = []
 +++
